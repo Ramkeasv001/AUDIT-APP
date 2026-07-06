@@ -2,7 +2,7 @@
    ADITUP is fully self-contained, so we precache the shell and serve
    cache-first. Bump CACHE_VERSION whenever index.html changes to push
    an update to installed clients. */
-const CACHE_VERSION = 'aditup-v1';
+const CACHE_VERSION = 'aditup-v2';
 const SHELL = [
   './',
   './index.html',
